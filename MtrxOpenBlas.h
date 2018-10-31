@@ -4,7 +4,7 @@
 #include <algorithm>
 #include <chrono>
 #include <vector>
-#include <openblas/cblas.h>
+#include <openblas/cblas.h> // library location for cdgemm(args)
 
 using std::cout;
 using std::cin;

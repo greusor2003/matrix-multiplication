@@ -8,7 +8,7 @@ struct Mtrx
     const size_t nrow;
     const size_t ncol;
     Mtrx():nrow(0), ncol(0), data(nullptr) {}
-    Mtrx(size_t M, size_t N): nrow(M), ncol(N), /*data(M*N)*/data(new T[M*N]){} 
+    Mtrx(size_t M, size_t N): nrow(M), ncol(N), data(new T[M*N]){} 
     ~Mtrx() { if(data != nullptr) delete [] data; }
     T& operator()(size_t, size_t); 
     T operator()(size_t, size_t) const;

@@ -4,4 +4,4 @@ The program assumes the installation of openBLAS (https://github.com/xianyi/Open
 
 The class is only a row major wrapper of a dynamic std::vector using std::allocator.
 
-Testing on core2 T7800 with 667Mhz bus speed showed no difference in performance between OpenBLAS and Intel mkl linking and its matrix multiplication operators are only 20% slower than those of the corresponding Armadillo's implementations for type double matrix entries but faster than Eigen's. Under the float type, this class' multiplication operators outperformed all the others.  
+Testing on core2 T7800 with 667Mhz bus speed at the same CPU temperature showed no difference in performance between OpenBLAS and Intel mkl linking. Its matrix multiplication operators are only 10% slower than those of the corresponding Armadillo's implementations for type double matrix entries but faster than Eigen's. Under the float type, this class' multiplication operators outperformed all the others.  

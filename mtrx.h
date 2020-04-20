@@ -1,8 +1,6 @@
 #ifndef MTRX_H
 #define MTRX_H
 #include <iostream>
-//#include <vector>
-#include <utility>
 #include <cassert>
 #include <random>
 #include <iomanip>
